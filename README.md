@@ -22,8 +22,8 @@ heroku git:clone --app YOURAPPNAME
 
 ```sh
 heroku run bash --app YOURAPPNAME
-fabmanager create-admin --app superset
 superset db upgrade
+superset fab create-admin
 superset init
 ```
 
